@@ -11,13 +11,16 @@ const SCHEMA: RJSFSchema = {
 };
 
 export default function App() {
-  const [addIdPrefix, setAddIdPrefix] = React.useState(false);
+  const [addIdPrefix, setAddIdPrefix] = React.useState(true);
 
   return (
     <>
       <div style={{ marginBottom: 8 }}>
-        <Switch onChange={(checked) => setAddIdPrefix(checked)} /> Add idPrefix
-        to Form
+        <Switch
+          checked={addIdPrefix}
+          onChange={(checked) => setAddIdPrefix(checked)}
+        />{" "}
+        Add idPrefix to Form
       </div>
       <Form
         idPrefix={addIdPrefix ? "randomPrefix" : undefined}
