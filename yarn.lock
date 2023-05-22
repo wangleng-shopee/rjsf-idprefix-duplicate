@@ -555,20 +555,20 @@
     rc-resize-observer "^1.3.1"
     rc-util "^5.29.2"
 
-"@rjsf/antd@^5.6.2":
-  version "5.6.2"
-  resolved "https://registry.yarnpkg.com/@rjsf/antd/-/antd-5.6.2.tgz#1c1edc3747b137d333a31cea900c41f2be79d42d"
-  integrity sha512-I2saMSW/Uf/HlDw8rVvWcCJRtz4RBuhy7GEOK0dYvLveRSY0/IXvPbs60e57DsSnk8yoF/L+3dOD3c6gDcR/GQ==
+"@rjsf/antd@^5.7.2":
+  version "5.7.2"
+  resolved "https://npm.shopee.io/@rjsf%2fantd/-/antd-5.7.2.tgz#981386875cc925438408e74b137d5d5e0b485768"
+  integrity sha512-r+PamAvfF19VreZ4qsXRsKdNszVCddNYWstL5G9Y9gYcAzVz2es4ICef/JcYUNSyX+uJQco0Np2T9r4DEKppOQ==
   dependencies:
     classnames "^2.3.2"
     lodash "^4.17.21"
     lodash-es "^4.17.21"
-    rc-picker "^2.7.0"
+    rc-picker "^2.7.2"
 
-"@rjsf/core@^5.6.2":
-  version "5.6.2"
-  resolved "https://registry.yarnpkg.com/@rjsf/core/-/core-5.6.2.tgz#2b3b0a22a3c4d934ee2e8504d57df120f55a7eac"
-  integrity sha512-3N3NZ1ax2XmeJU0Bf6bBIRFawyIukN1bgA5Y5B1vFZ2GwZ9Gn1eiQedAhdgR8+qSlghVxNmC942c9oPR0GzE0A==
+"@rjsf/core@^5.7.2":
+  version "5.7.2"
+  resolved "https://npm.shopee.io/@rjsf%2fcore/-/core-5.7.2.tgz#625acc22b645f09b13592a45525b6d1160f852a9"
+  integrity sha512-ur1OZzPb5gHBkLsLJ3iw4HwYt74ak2t/wF9xejbcU93oUpNq/NAe1j/YS6Fy2iHlAvyXwygd3tbECiIK5diaaA==
   dependencies:
     lodash "^4.17.21"
     lodash-es "^4.17.21"
@@ -576,10 +576,10 @@
     nanoid "^3.3.6"
     prop-types "^15.8.1"
 
-"@rjsf/utils@^5.6.2":
-  version "5.6.2"
-  resolved "https://registry.yarnpkg.com/@rjsf/utils/-/utils-5.6.2.tgz#d7a32f56a5ca333a112d21037c99885e12b53d3f"
-  integrity sha512-uditIzGKHRV5vI9HOz4spSoGplm3zrifsInn+izCWETJfLgV5961hUYHaS21vcD+VTp7qUcTZChfmhiRekSrLA==
+"@rjsf/utils@^5.7.2":
+  version "5.7.2"
+  resolved "https://npm.shopee.io/@rjsf%2futils/-/utils-5.7.2.tgz#5f46809c0352654d5980e3b38bec6d9a3b2fa574"
+  integrity sha512-d9vdjKzmr922CiODJBJj3od5NgnunGPMbynN//sravh2v8pUekzv3OaD0eB1HA8yPSK6Y054jZqxEGJ/pAPA7g==
   dependencies:
     json-schema-merge-allof "^0.8.1"
     jsonpointer "^5.0.1"
@@ -587,10 +587,10 @@
     lodash-es "^4.17.21"
     react-is "^18.2.0"
 
-"@rjsf/validator-ajv8@^5.6.2":
-  version "5.6.2"
-  resolved "https://registry.yarnpkg.com/@rjsf/validator-ajv8/-/validator-ajv8-5.6.2.tgz#75c0e84a53ca616bbd66e2cd431f68bf66e6b9a9"
-  integrity sha512-aenj8vQ91TJdRTqFGi3Rl3j7j/EjjgYokIopCBlFqYDR3AVcoFSbLZw2JobZAADstw3eIL+ZEYi/LyvJCVV6lw==
+"@rjsf/validator-ajv8@^5.7.2":
+  version "5.7.2"
+  resolved "https://npm.shopee.io/@rjsf%2fvalidator-ajv8/-/validator-ajv8-5.7.2.tgz#c3bb2e72c3b3fcab90f2513588004a55a3055cd0"
+  integrity sha512-00P0aZ3uKZw3SKMbn5DVEQHjZMpyNAuaIMRQmwfa07OYawBoGcVkqgIJp2UpjMJPhNVChLp+eYI/4ZdL/w+ayw==
   dependencies:
     ajv "^8.12.0"
     ajv-formats "^2.1.1"
@@ -1872,9 +1872,9 @@ rc-pagination@~3.3.1:
     "@babel/runtime" "^7.10.1"
     classnames "^2.2.1"
 
-rc-picker@^2.7.0:
+rc-picker@^2.7.2:
   version "2.7.2"
-  resolved "https://registry.yarnpkg.com/rc-picker/-/rc-picker-2.7.2.tgz#bf656ca274228c84b955dfaa7705738908cb900f"
+  resolved "https://npm.shopee.io/rc-picker/-/rc-picker-2.7.2.tgz#bf656ca274228c84b955dfaa7705738908cb900f"
   integrity sha512-KbUKgbzgWVN5L+V9xhZDKSmseHIyFneBlmuMtMrZ9fU7Oypw6D+owS5kuUicIEV08Y17oXt8dUqauMeC5IFBPg==
   dependencies:
     "@babel/runtime" "^7.10.1"
